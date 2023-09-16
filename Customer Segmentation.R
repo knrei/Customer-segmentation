@@ -19,7 +19,7 @@ cust_seg[1:8,]
 head(cust_seg)
 
 
-# Pre-processing Datap ending_Score)
+# Pre-processing Data
 cust_seg$Gender <- as.factor(cust_seg$Gender)
 cust_seg$Ever_Married <- as.factor(cust_seg$Ever_Married)
 cust_seg$Age <- as.numeric(cust_seg$Age)
@@ -99,4 +99,5 @@ par(mfrow=c(2,2),mar=c(3,4,1,1))
 clprofiles(clust3, cust_seg)
 library(writexl)
 write_xlsx(clust3$centers,"D:/Self Study/R Studio/center cluster.xlsx")
-write_xlsx(clust3$data,"D:/Self Study/R Studio/center cluster.xlsx")
+clustofclust3 <- data.frame(clust3$cluster)
+write_xlsx(clustofclust3,"D:/Self Study/R Studio/d.xlsx")
