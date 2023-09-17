@@ -1,0 +1,8 @@
+k-Prototypes Algorithm
+
+so, what is the k-Prototypes Algorithm?
+k-Prototypes Algorithm is one of cluster method you can use for data partition or segmentation. This algorithm is a improvement of k-means algorithm which cam handle not only numerical data but also categorical data. The k-prototypes algorithm is practically more useful because frequently encountered data in real world databases are mixed-typed data (numerical data and categorical data). 
+
+for further detail about k-prototypes algorithm you can check it out on this paper:
+1. Huang, Z. (1997). Clustering Large Data Sets With Mixed Numeric and Categorical Values. In The First Pacific-Asia Conference on Knowledge Discovery and Data Mining, 21–34.
+2. Huang, Z. (1998). Extensions to the k -Means Algorithm for Clustering Large Data Sets with Categorical Values. Data Mining and Knowledge Discovery 2, 2(3), 283–304.
